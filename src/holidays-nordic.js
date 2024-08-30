@@ -281,9 +281,9 @@ const moveableHolidays = {
     general: {
         'Good Friday' : year => relativeToEaster_weekDay(year, 5, -1),
         'Easter Sunday' : year => getEaster(year),
-        'Easter Monday' : year => relativeToEaster_weekDay(year, 1),
-        'Ascension Day' : year => relativeToEaster(year, 39),
-        'Pentecost' : year => relativeToEaster(year, 49),
+        'Easter Monday' : year => relativeToEaster_weekDay(year, 2),
+        'Ascension Day' : year => relativeToEaster(year, 40),
+        'Pentecost' : year => relativeToEaster(year, 50),
         'All Saints\' Day': year => weekdayRelativeTo(year, 6, ['31', '10'])
     },
     se: {
